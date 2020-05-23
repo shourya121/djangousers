@@ -1,0 +1,25 @@
+ h1{
+   color:#eb4f34;
+
+ }
+ body{
+   text-align: center;
+   background-color:yellow;
+ }
+
+
+
+
+ @keyframes example {
+   0%   {background-color: #dffc03;}
+   25%  {background-color: #41fc03;}
+   50%  {background-color:#03adfc ;}
+   100% {background-color: #fc0362;}
+ }
+
+ div{
+
+ animation-duration: 4s;
+   animation-name:example;
+   animation-iteration-count: infinite;
+ }

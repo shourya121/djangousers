@@ -1,0 +1,31 @@
+
+h1{
+  color: #4bf542
+}
+
+  body{
+  background-color:#03a5fc;
+  text-align: center;
+
+}
+@keyframes example {
+  0%   {background-color: #dffc03;}
+  25%  {background-color: #41fc03;}
+  50%  {background-color:#03adfc ;}
+  100% {background-color: #fc0362;}
+}
+
+.container{
+
+animation-duration: 4s;
+  animation-name: example;
+  animation-iteration-count: infinite;
+}
+
+.cimp{
+  color: #8003fc;
+}
+
+#simp{
+  color:black
+}
